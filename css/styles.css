@@ -1,0 +1,6 @@
+* {
+    box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
