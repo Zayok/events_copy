@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 * {
     box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
 }
 a, button{
     transition: all .3s ease-in-out;
 }
+
+.container {
+    display: flex;
+    flex-direction:row;
+	justify-content: flex-end;
+	align-items: center;/*выравнивание вдоль поперечной оси*/
+	padding:10px;
+	background-color: blue;
+	min-height: 200px;
+}
+
+.container div {
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.item1 {}
+
+.item2 {}
+
+.item3 {}
