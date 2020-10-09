@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
 }
@@ -9,20 +9,30 @@ a, button{
 .container {
     display: flex;
     flex-direction:row;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;/*выравнивание вдоль поперечной оси*/
-	padding:10px;
-	background-color: blue;
-	min-height: 200px;
+	padding: 50px 50px;
+	background-color: #fdde7e;
+	min-height: 700px;
 }
 
 .container div {
-	margin: 10px 10px;
-	width: 100px;
-	height: 100px;
-	background-color: red;
+	margin: 34px;
+	
+	background-color:#ffffff;
 }
-
+.cup__gold{
+	width: 360px;
+height: 500px;
+}
+.cup__silver{
+width: 360px;
+height: 440px;
+}
+.cup__bronze{
+	width: 360px;
+	height: 440px;
+}
 .item1 {}
 
 .item2 {}
